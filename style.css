@@ -53,6 +53,7 @@ section {
   height: 22em;
   color: white;
   text-align: center;
+  clear: both;
 }
 
 .main h1 {
@@ -63,7 +64,7 @@ section {
 .main h2 {
   border: 1px solid white;
   padding: 10px;
-  width: 6em;
+  width: 35%;
   margin: auto;
   font-weight: normal;
 }
@@ -110,6 +111,9 @@ background-color: hsla(0, 100%, 100%, 0);
   top: 38%;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+#work {
 }
 
 
