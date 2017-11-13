@@ -31,6 +31,16 @@ section {
   margin-top: 4em;
   background-image: url(a12-assets/purple-bg.jpeg);
   height: 20em;
+  color: white;
+}
+
+#main h1 {
+  font-size: 3em;
+  padding-top: 2em;
+}
+
+#main h2 {
+  border: 1px solid white;
 }
 
 
