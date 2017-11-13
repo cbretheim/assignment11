@@ -1,3 +1,8 @@
+html {
+  box-sizing: border-box;
+
+} *, *:before, *:after {box-sizing: inherit;}
+
 body {
   font-family: helvetica, sans-serif;
   font-size: 16px;
@@ -12,7 +17,7 @@ nav {
   height: 3em;
   background: black;
   color: white;
-  padding: 0.5em;
+  padding: 0 0 0.5em 0.5em;
 }
 
 nav h1 {
@@ -28,7 +33,7 @@ section {
 
 /******MAIN SECTION*******/
 #main {
-  margin-top: 4em;
+  margin-top: 3em;
   background-image: url(a12-assets/purple-bg.jpeg);
   height: 20em;
   color: white;
@@ -55,14 +60,58 @@ section {
 }
 
 /******Latest work section*******/
+#work {
+ height: 1000px;
+}
+
 #work h2 {
   font-size: 1.2em;
   font-variant-caps: all-petite-caps;
-  
+  text-align: center;
+  padding-top: 4em;
+}
+
+article {
+  float: left;
+  width: 49%;
+  height: 20%;
+  margin: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#one {
+  background-image: url(a12-assets/1-cocktail.jpeg);
+}
+
+#two {
+  background-image: url(a12-assets/2-disco.jpeg);
+}
+
+#three {
+  background-image: url(a12-assets/3-bookstore.jpeg);
+}
+
+#four {
+  background-image: url(a12-assets/4-traffic.jpeg);
+}
+
+#five {
+  background-image: url(a12-assets/5-concert.jpg);
+}
+
+
+#six {
+  background-image: url(a12-assets/6-nightlife.jpg);
+}
+
+#seven {
+  background-image: url(a12-assets/7-bar.jpg);
 }
 
 /******FOOTER*******/
 
 footer {
   text-align: center;
+  clear: both;
 }
