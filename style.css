@@ -69,25 +69,36 @@ section {
  height: 1000px;
 }
 
-#work h2 {
-  font-size: 1.2em;
-  font-variant-caps: all-petite-caps;
-  text-align: center;
-  padding-top: 4em;
-}
-
 article {
   float: left;
   width: 49%;
   height: 21%;
   margin: 1px;
-  background-c
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: hsla(0, 100%, 100%, 0.5);
+  position: relative;
+  border: 1px solid red;
+}
+
+article img {
+  max-height: 100%;
+  display: block;
+  position: relative;
+  z-index: -10;
 }
 
 article:hover {
-color: blue;
+background-color: hsla(0, 100%, 100%, 0);
+}
+
+#work h2 {
+  font-size: 1.2em;
+  font-variant-caps: all-petite-caps;
+  text-align: center;
+  padding-top: 4em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /*background image styling
