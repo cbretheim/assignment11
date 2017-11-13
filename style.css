@@ -38,10 +38,12 @@ nav #icon {
   src: url(font-awesome-4.7.0/fonts/fontawesome-webfont.woff);
 }
 
-
 section {
-  border-bottom: 1px solid #efefef;
   padding: 10px;
+}
+
+#work, footer {
+  border-top: 1px solid #efefef;
 }
 
 /******MAIN SECTION*******/
@@ -78,9 +80,7 @@ section {
 }
 
 /******Latest work section*******/
-#work {
- height: 1100px;
-}
+
 
 article {
   float: left;
