@@ -66,23 +66,22 @@ section {
 
 /******Latest work section*******/
 #work {
- height: 1000px;
+ height: 1100px;
 }
 
 article {
   float: left;
   width: 49%;
-  height: 21%;
+  height: 15em;
   margin: 1px;
   background-color: hsla(0, 100%, 100%, 0.5);
   position: relative;
-  border: 1px solid red;
 }
 
 article img {
+  width: 100%;
   max-height: 100%;
-  display: block;
-  position: relative;
+  position: absolute;
   z-index: -10;
 }
 
@@ -94,14 +93,18 @@ background-color: hsla(0, 100%, 100%, 0);
   font-size: 1.2em;
   font-variant-caps: all-petite-caps;
   text-align: center;
-  padding-top: 4em;
   position: absolute;
-  top: 0;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 /*background image styling
+article {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #one {
   background-image: url(a12-assets/1-cocktail.jpeg);
 }
