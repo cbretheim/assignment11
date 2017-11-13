@@ -81,6 +81,7 @@ article {
   width: 49%;
   height: 21%;
   margin: 1px;
+  background-c
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -89,6 +90,7 @@ article:hover {
 color: blue;
 }
 
+/*background image styling
 #one {
   background-image: url(a12-assets/1-cocktail.jpeg);
 }
@@ -117,6 +119,7 @@ color: blue;
 #seven {
   background-image: url(a12-assets/7-bar.jpg);
 }
+*/
 
 /******FOOTER*******/
 
