@@ -53,6 +53,11 @@ section {
   font-weight: normal;
 }
 
+#main h2:hover {
+  background-color: white;
+  color: black;
+}
+
 /******SECTION H1'S*******/
 #about h1, #work h1 {
   font-size: 1em;
@@ -74,10 +79,14 @@ section {
 article {
   float: left;
   width: 49%;
-  height: 20%;
+  height: 21%;
   margin: 1px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+article:hover {
+color: blue;
 }
 
 #one {
